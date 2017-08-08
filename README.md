@@ -1,3 +1,3 @@
-[![GoDoc](https://godoc.org/github.com/traetox/goaio?status.svg)](https://godoc.org/github.com/traetox/goaio)
-# goaio
-Kernel based asynchronous IO library in pure golang
+[![GoDoc](https://godoc.org/github.com/zyxar/aio?status.svg)](https://godoc.org/github.com/zyxar/aio)
+# aio
+Kernel Asynchronous I/O (AIO) Support for Linux in Go
