@@ -30,7 +30,7 @@ func TestInfo(t *testing.T) {
 		t.Fatal(fmt.Sprintf("Invalid aio callback structure size: %d != %d", unsafe.Sizeof(cb), 64))
 	}
 	if unsafe.Sizeof(ev) != 32 {
-		t.Fatal(fmt.Sprintf("Invalid event structure size", unsafe.Sizeof(ev), 32))
+		t.Fatal(fmt.Sprintf("Invalid event structure size: %d != %d", unsafe.Sizeof(ev), 32))
 	}
 }
 
